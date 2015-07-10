@@ -1,0 +1,13 @@
+#tabla{
+    background-color:#654321;
+    text-align: center;
+    border-style: dashed;
+}
+#tabla:nth-child(odd) td:nth-child(odd),#tabla:nth-child(even) td:nth-child(even){
+    background-color:#123456;
+    table-layout: justify;
+}
+
+body{
+	text-align: center;
+}
